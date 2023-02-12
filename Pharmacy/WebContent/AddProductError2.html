@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> </title>
+<link rel="stylesheet" href="css/AddProduct.css">
+</head>
+<body>
+<div class="main">
+	<div class="topbar1"></div>
+	<div class="topbar2">
+		<div class="container1">
+			<div class="logout-btn">
+				<a href="Logout.jsp">خروج</a>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="container2">
+			<div class="navbar">
+				<a href="SellerHomepage.jsp">الرئيسية</a>
+				<a href="AddProduct.html">اضافة</a>
+				<a href="AddInventory.jsp">المشتريات</a>
+				<a href="SellerOrders.jsp">الطلبات</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="active">
+	<div class="filler"></div>
+	<h2>صيغة التاريخ غير صحيحة</h2>
+	<form action="AddProduct.jsp" method="post">
+		<div class="bigcard">
+			<div class="bigcard1">
+					<h3>ادخل اسم المنتح </h3><input type='text' name='prname' required>
+					<h3>ادخل رقم المنتح</h3><input type='text' name='prid' required>
+					<h3>الشركة المصنعه</h3><input type='text' name='mfname' required>
+					<h3>تاريخ التصنيع</h3><input type="text" name="mdate" placeholder="" onkeypress="return event.charCode>= 48 && event.charCode<= 57 || event.charCode==45" required>
+					<h3>تاريخ الانتهاء</h3><input type="text" name="edate" placeholder="" onkeypress="return ((event.charCode>= 48 && event.charCode<= 57) || event.charCode==45)" required>
+    		  	</div>
+       		<div class="bigcard2">
+	      		<h3>Quantity</h3><input type="text" name="quantity" onkeypress="return event.charCode>= 48 && event.charCode<= 57" required>
+     			<h3>Price</h3><input type="text" name="price" onkeypress="return event.charCode>= 48 && event.charCode<= 57" required>
+     			<p></p>
+    	 		<input type="submit" value="اضافة">
+     		</div>
+		</div>
+	</form>
+</div>
+</body>
+</html>

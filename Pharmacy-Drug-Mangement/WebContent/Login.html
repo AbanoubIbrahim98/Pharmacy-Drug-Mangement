@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>تسجيل الدخول</title>
+<link rel="stylesheet" href="css/Login.css">
+</head>
+<body>
+	<form action="Login.jsp" method="post">
+	<div class="container">
+		<div class="loginbox">
+			<h2>تسجيل الدخول</h2>
+				<div class="customselect">
+					<div class="select">
+  					<select  name="utype" required>
+    					<option value="" selected disabled>اختر نوع الحساب </option>
+    					<option value="2">مستخدم</option>
+    					<option value="1">مشتري</option>
+  					</select>
+					</div>
+				</div>
+			<input type="text" name="userid" placeholder="ادخل رقم المستخدم" required>
+			<input type="password" name="password" placeholder="ادخل كلمه السر" required>
+			<input type="submit" value="دخول">
+		</div>
+	</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>تسجيل</title>
+<link rel="stylesheet" href="css/Register.css">
+</head>
+<body>
+	<form action="Register.jsp" method="post">
+	<div class="container">
+		<div class="registerbox">
+			<h2>تسجيل زبون جديد</h2>
+			<input type="text" name="fname" placeholder="ادخل الاسم الاول" required>
+			<input type="text" name="lname" placeholder="ادخل الاسم الثاني" required>
+			<input type="text" name="email" placeholder="ادخل البريد الالكتروني" required>
+			<input type="text"  name="phno" placeholder="رقم الهاتف" onkeypress="return event.charCode>= 48 && event.charCode<= 57" required>
+			<input type="text" name="address" placeholder="العنوان" required>
+			<input type="text" name="uid" placeholder="رقم المعرف" required>
+			<input type="password" name="pass1" placeholder="كلمة السر" required>
+			<input type="password" name="pass2" placeholder="تأكيد كلمه السر" required>
+			<input type="submit" value="دخول" >
+		</div>
+		</div>
+	</form>
+</body>
+</html>

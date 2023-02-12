@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : ٠٩‏/١٢‏/٢٠٢١, ١٠:٢٨:٢٧ ص
+    Author     : OMAR
+*/
+
+ .popup{
+
+
+                                            background-color: rgba(0, 0, 0, 0.6);
+                                            width: 100%;
+                                            height: 100%;
+                                            position: absolute;
+                                            top: 0;
+                                            display: none;
+                                            justify-content: center;
+                                            align-items: center;
+                                            
+                                            text-align: center;
+                                        }
+                                        .popup-content{
+                                height: 340px;
+                                width: 500px;
+                                background-color: white;
+                                padding: 20px;
+                                border-radius: 10px;
+                                position: relative;
+
+
+
+                                        }
+   .close{
+    position: absolute;
+    top:-15px;
+    right: -15px;
+    background-color: red;
+    border-radius: 9px;
+    box-shadow: 6px 6px 29px 4px rgb(202, 191, 191);
+    cursor: pointer;
+   }
